@@ -18,8 +18,10 @@ s.mb = [[
 \\mathbb{$1}$0]]
 s.disp = [[
 \\displaystyle]]
-s.dlim = [[
+s.lim = [[
 \\displaystyle\\lim_{${1:x\\to\\infty}}$0]]
+s.dlim = [[
+\\lim_{${1:x\\to\\infty}}$0]]
 s.left = [[
 \\left($1\\right)$0]]
 s.frac = [[
