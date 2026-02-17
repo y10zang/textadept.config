@@ -54,9 +54,9 @@ $3, ${4:&\text\{others\}}
 \\end{cases}$0]]
 s.matrix = [[
 \\begin{matrix}
-${1:a_\{11\}} & \cdots & ${2:a_\{1n\}} \\
-\vdots & \ddots & \vdots \\
-${3:a_\{n1\}} & \cdots & ${4:a_\{nn\}}
+${1:a_\{11\}} & \\cdots & ${2:a_\{1n\}} \\\\
+\\vdots & \\\ddots & \\vdots \\\\
+${3:a_\{n1\}} & \\cdots & ${4:a_\{nn\}}
 \\end{matrix}$0]]
 s.vmatrix = [[
 \\begin{vmatrix}
