@@ -12,6 +12,8 @@ s.td = [[
 \\text{${1:d}}$0]]
 s.inf = [[
 \\infty]]
+s.vphi = [[
+\\varphi]]
 s.rm = [[
 \\mathrm{$1}$0]]
 s.mb = [[
@@ -60,21 +62,21 @@ ${3:a_\{n1\}} & \\cdots & ${4:a_\{nn\}}
 \\end{matrix}$0]]
 s.vmatrix = [[
 \\begin{vmatrix}
-${1:a_\{11\}} & \cdots & ${2:a_\{1n\}} \\
-\vdots & \ddots & \vdots \\
-${3:a_\{n1\}} & \cdots & ${4:a_\{nn\}}
+${1:a_\{11\}} & \\cdots & ${2:a_\{1n\}} \\\\
+\\vdots & \\\ddots & \\vdots \\\\
+${3:a_\{n1\}} & \\cdots & ${4:a_\{nn\}}
 \\end{vmatrix}$0]]
 s.bmatrix = [[
 \\begin{bmatrix}
-${1:a_\{11\}} & \cdots & ${2:a_\{1n\}} \\
-\vdots & \ddots & \vdots \\
-${3:a_\{n1\}} & \cdots & ${4:a_\{nn\}}
+${1:a_\{11\}} & \\cdots & ${2:a_\{1n\}} \\\\
+\\vdots & \\\ddots & \\vdots \\\\
+${3:a_\{n1\}} & \\cdots & ${4:a_\{nn\}}
 \\end{bmatrix}$0]]
 s.pmatrix = [[
 \\begin{pmatrix}
-${1:a_\{11\}} & \cdots & ${2:a_\{1n\}} \\
-\vdots & \ddots & \vdots \\
-${3:a_\{n1\}} & \cdots & ${4:a_\{nn\}}
+${1:a_\{11\}} & \\cdots & ${2:a_\{1n\}} \\\\
+\\vdots & \\\ddots & \\vdots \\\\
+${3:a_\{n1\}} & \\cdots & ${4:a_\{nn\}}
 \\end{pmatrix}$0]]
 
 return M
