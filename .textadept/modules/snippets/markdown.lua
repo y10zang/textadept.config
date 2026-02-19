@@ -37,7 +37,7 @@ s.dsum = [[
 s.prod = [[
 \\prod_{${1:k=0}}^{${2:\\infty}}$0]]
 s.dprod = [[
-\\displaystyle\\sum_{${1:k=0}}^{${2:\\infty}}$0]]
+\\displaystyle\\prod_{${1:k=0}}^{${2:\\infty}}$0]]
 s.int = [[
 \\int_{$1}^{$2}$0]]
 s.dint = [[
